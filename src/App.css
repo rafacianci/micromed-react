@@ -1,0 +1,27 @@
+body, html {
+  background-color: #F1F4F9;
+}
+
+.button {
+  font-size: 14px;
+  line-height: 26px;
+  background-color: #F1F4F9;
+  height: 35px;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 980px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}

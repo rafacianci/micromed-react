@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jest",
+  ],
+  "env": {
+    "jest/globals": true
+  },
+  "globals": {
+    "document": true,
+    "navigator": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0,
+    "arrow-parens": 0,
+    "import/prefer-default-export": 0,
+    "jsx-quotes": ["error", "prefer-single"],
+  }
+}
